@@ -7,7 +7,7 @@
 
 ## Deployed Link
 
-[Link]()
+[Link](https://shwetank-developer-landing-page.netlify.app/)
 
 ## Final Result
 
