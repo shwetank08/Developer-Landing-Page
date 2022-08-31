@@ -1,0 +1,121 @@
+@media screen and (max-width:1200px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    nav>svg {
+        height: 2rem;
+    }
+    .nav-item{
+        display: flex;
+        padding: 0rem 1rem;
+        margin: 1rem 0rem;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    .nav-item-active{
+        display: flex;
+        padding: 0rem 2rem;
+        margin: 0.5rem 0rem;
+        background-color: #ffffff;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .header-image{
+      display: none;
+    }
+    .companies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .api{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.2rem;
+    }
+    .blog-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem auto;
+    }
+    .blog-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog-card{
+        margin:2rem 0rem;
+    }
+    .faq-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #e9edff;
+        height: auto;
+    }
+    .faq-content{
+        margin-top: 2rem;
+    }
+    [alt="faqi"]{
+        width: 50%;
+    }
+    .download-section{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin: 2rem 0rem;
+    }
+    input {
+        flex-grow:2;
+        width: 200px;
+        background-color: transparent;
+        text-align: center;
+        border:none;
+      }
+      button {
+        border-radius: 10px;
+        border-width: 1px;
+        background-color: #5A31FC;
+        width: 70px;
+        color:white;
+      }
+      .footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .list{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+}
